@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+* {
+  font-family: "Roboto";
+}
+.nav-list {
+  font-family: "roboto";
+  font-size: 15px;
+  font-weight: bold;
+}
+.logo {
+  height: 40px;
+}
+.search {
+  color: black;
+  height: 20px;
+  margin: 10px 0px 0px 10px;
+}
+.container {
+  margin: 0px;
+}
+.button {
+  font-size: 13px;
+  width: 100px;
+  height: 60px;
+  border: solid;
+  color: white;
+  background-color: #e84b45;
+
+  width: 90px;
+}
+
+.head {
+  margin: 50px 10px 25px 10px;
+  padding: 20px;
+}
+.heading {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #28324f;
+}
+.line {
+  border-style: solid;
+  height: 1px;
+  width: 70px;
+  background-color: #e84b45;
+}
+.paragraph {
+  color: #61697e;
+  font-size: 20px;
+
+  font-weight: 300;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+}
+.expansion {
+  color: #e84b45;
+  margin: 20px;
+  text-align: center;
+}
+
+.picture {
+  height: 400px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 400px;
+}
+.footer1 {
+  background-color: #e84b45;
+  width: 35vw;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+.footer2 {
+  background-color: #1e2744;
+  width: 100vw;
+  padding: 10px;
+  padding-top: 27px;
+  color: #ffffff;
+}
+.heartlogo {
+  height: 60px;
+}
+.donate {
+  text-align: center;
+  padding: 10px;
+  padding-top: 20px;
+  font-size: 12px;
+}
+.list-items {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.item {
+  color: #ffffff;
+  list-style: none;
+  font-size: 12px;
+  margin: 5px;
+}
+@media only screen and (max-width: 630px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer1 {
+    display: flex;
+    width: 100vw;
+  }
+  .footer2 {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+  }
+
+  .list-items {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+}
